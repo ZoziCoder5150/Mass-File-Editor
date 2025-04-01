@@ -1,2 +1,8 @@
 build/*
 !build/.gitkeep
+./*
+!./src
+!./build_test
+!./.gitignore
+!./makefile
+./.vscode/*
