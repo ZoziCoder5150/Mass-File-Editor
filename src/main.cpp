@@ -27,6 +27,7 @@ int main(int argc, char * argv[]) {
     }
     if (flags & FLAG_VERSION) {
         std::cout << "Version " << VERSION << " Build number " << BUILDNUM;
+        return 0;
     }
 
     if (flags & FLAG_OUTPUT_REPEATED) {
